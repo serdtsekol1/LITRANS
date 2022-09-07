@@ -1,0 +1,58 @@
+.home-about-video img {
+  display: block;
+  max-width: 100%;
+  box-shadow: 1px 1px 8px 1px;
+}
+
+.home-clients .home-clients-carousel-item img {
+  max-width: 100%;
+  display: block;
+  width: 100px;
+  height: 70px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-image {
+  border-radius: 2px;
+}
+.logo-image img {
+  display: block;
+  height: 48px;
+}
+
+.main-navbar-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(180deg, rgba(201, 201, 201, 0.65), rgba(139, 139, 139, 0.51), rgba(82, 82, 82, 0));
+}
+.main-navbar-1 .language_toggle {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main-navbar-1 .language_toggle a {
+  text-transform: unset;
+  color: #040707;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main-navbar-1 .language_toggle a:hover {
+  transform: scale(2, 0.5);
+}
+.main-navbar-1 .language_toggle a:first-child {
+  padding: 20px 4px 20px 20px;
+}
+.main-navbar-1 .language_toggle a:last-child {
+  padding: 20px 20px 20px 4px;
+}
+.main-navbar-1 .language_toggle a.active {
+  color: #64a6a6;
+}
+.main-navbar-1 .language_toggle span {
+  color: #040707;
+}
+
+/*# sourceMappingURL=style.css.map */
